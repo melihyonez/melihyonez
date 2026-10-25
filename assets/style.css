@@ -124,3 +124,17 @@ h2 { font-size: 1.5rem; margin-top: 0; }
 .legal h1 { font-size: 2.25rem; }
 .legal h2 { margin-top: 2rem; }
 .muted { color: var(--muted); }
+
+.game-icon { display: block; border-radius: 14px; border: 1px solid var(--border); margin-bottom: 0.75rem; }
+.game-icon-lg { border-radius: 22px; margin-bottom: 1rem; }
+
+.btn-soon { opacity: 0.6; cursor: default; }
+.btn-soon:hover { opacity: 0.6; }
+
+.game-about { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; }
+.game-about > div { flex: 1 1 320px; min-width: 0; }
+.game-art { flex: 0 1 260px; width: 260px; height: auto; border-radius: 12px; border: 1px solid var(--border); }
+.feature-list { padding-left: 1.2rem; }
+.feature-list li { margin-bottom: 0.6rem; }
+
+.lang-switch { margin: 0.5rem 0 0; font-size: 0.9rem; color: var(--muted); }

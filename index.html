@@ -1,76 +1,77 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Melih Yönez</title>
-  <meta name="description" content="Melih'in kişisel web sitesi">
+  <meta name="description" content="Melih's personal website">
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
   <header class="site-header">
     <a class="logo" href="/">Melih</a>
     <nav>
-      <a href="/#hakkimda">Hakkımda</a>
-      <a href="/#oyunlar">Oyunlar</a>
-      <!-- Portfolyo eklenince bu satırı aç: <a href="#projeler">Projeler</a> -->
-      <a href="/#iletisim">İletişim</a>
-      <button id="theme-toggle" aria-label="Temayı değiştir">◐</button>
+      <a href="/#about">About</a>
+      <a href="/#games">Games</a>
+      <!-- Portfolyo eklenince bu satırı aç: <a href="#projects">Projects</a> -->
+      <a href="/#contact">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle theme">◐</button>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <p class="eyebrow">Merhaba, ben</p>
+      <p class="eyebrow">Hi, I'm</p>
       <h1>Melih Yönez</h1>
-      <p class="lead">Yazılım geliştiricisiyim. Gündüzleri bir şirkette front-end geliştirici olarak çalışıyorum, geri kalan zamanımda kendi mobil oyunumu geliştiriyorum.</p>
+      <p class="lead">I'm a software developer. By day I work as a front-end developer at a company, and in my spare time I build my own mobile game.</p>
       <div class="actions">
-        <a class="btn" href="#iletisim">İletişime geç</a>
-        <a class="btn btn-ghost" href="#hakkimda">Daha fazlası</a>
+        <a class="btn" href="#contact">Get in touch</a>
+        <a class="btn btn-ghost" href="#about">Learn more</a>
       </div>
     </section>
 
-    <section id="hakkimda">
-      <h2>Hakkımda</h2>
-      <p>Web arayüzleri geliştirmeyi ve küçük, keyifli oyunlar yapmayı seviyorum. Bu site, üzerinde çalıştığım projeleri ve oyunlarımı paylaştığım yer.</p>
+    <section id="about">
+      <h2>About</h2>
+      <p>I enjoy building web interfaces and making small, fun games. This site is where I share the projects and games I'm working on.</p>
       <ul class="tags">
         <li>Front-end</li>
-        <li>Mobil oyun geliştirme</li>
+        <li>Mobile game development</li>
         <li>Web</li>
       </ul>
     </section>
 
     <!-- Portfolyo bölümü: hazır olduğunda yorumu kaldır, kartları çoğalt.
-    <section id="projeler">
-      <h2>Projeler</h2>
+    <section id="projects">
+      <h2>Projects</h2>
       <div class="grid">
         <article class="card">
-          <h3>Proje adı</h3>
-          <p>Kısa açıklama.</p>
-          <a href="#">Detay →</a>
+          <h3>Project name</h3>
+          <p>Short description.</p>
+          <a href="#">Details →</a>
         </article>
       </div>
     </section>
     -->
 
-    <section id="oyunlar">
-      <h2>Oyunlar</h2>
+    <section id="games">
+      <h2>Games</h2>
       <div class="grid">
-        <article class="card">
-          <h3>Max</h3>
-          <p>Geliştirmekte olduğum mobil oyun.</p>
-          <a href="/games/max/">Detay →</a>
+        <article class="card game-card">
+          <img class="game-icon" src="/assets/games/max/icon.png" alt="Maxtraction icon" width="64" height="64">
+          <h3>Maxtraction</h3>
+          <p>A survival game set in a post-apocalyptic wasteland, built around resource management and careful exploration. In development.</p>
+          <a href="/games/max/">Details →</a>
         </article>
       </div>
     </section>
 
-    <section id="iletisim">
-      <h2>İletişim</h2>
-      <p>Bana ulaşmak için:</p>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at:</p>
       <ul class="links">
-        <li><a href="mailto:ornek@ornek.com">E-posta</a></li>
-        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-        <li><a href="https://github.com/">GitHub</a></li>
+        <li><a href="mailto:melih.yonez@gmail.com">melih.yonez@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/melih-yonez/">LinkedIn</a></li>
+        <li><a href="https://github.com/melihyonez">GitHub</a></li>
       </ul>
     </section>
   </main>

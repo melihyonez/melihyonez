@@ -1,6 +1,6 @@
 # melihyonez.com
 
-Sade, derleme aracı gerektirmeyen kişisel site (HTML + CSS).
+Sade, derleme aracı gerektirmeyen kişisel site (HTML + CSS). Site dili İngilizce; sözleşmelerin Türkçe sürümleri `tr/` altında.
 
 ## Yapı
 
@@ -11,6 +11,7 @@ assets/main.js              Tema düğmesi, yıl
 games/max/index.html        -> /games/max/
 games/max/terms/index.html  -> /games/max/terms/
 games/max/privacy/index.html-> /games/max/privacy/
+games/max/*/tr/index.html   -> Sözleşmelerin Türkçe sürümleri (/terms/tr/, /privacy/tr/)
 ```
 
 Yeni bir oyun için `games/max` klasörünü kopyalayıp adını değiştirmek yeterli.

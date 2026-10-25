@@ -1,40 +1,57 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Max · Melih Yönez</title>
-  <meta name="description" content="Max, mobil oyun">
+  <title>Maxtraction · Melih Yönez</title>
+  <meta name="description" content="Maxtraction: a mobile survival game set in a post-apocalyptic wasteland">
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
   <header class="site-header">
     <a class="logo" href="/">Melih Yönez</a>
     <nav>
-      <a href="/#hakkimda">Hakkımda</a>
-      <a href="/#oyunlar">Oyunlar</a>
-      <a href="/#iletisim">İletişim</a>
-      <button id="theme-toggle" aria-label="Temayı değiştir">◐</button>
+      <a href="/#about">About</a>
+      <a href="/#games">Games</a>
+      <a href="/#contact">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle theme">◐</button>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <p class="eyebrow">Mobil oyun</p>
-      <h1>Max</h1>
-      <p class="lead">[Oyunun kısa tanıtımı.]</p>
+      <img class="game-icon game-icon-lg" src="/assets/games/max/icon.png" alt="Maxtraction icon" width="96" height="96">
+      <p class="eyebrow">Mobile game · iOS and Android</p>
+      <h1>Maxtraction</h1>
+      <p class="lead">Set up camp in a post-apocalyptic wasteland, keep your people alive and ration your supplies as you head into the unknown. Every step is a choice: one wrong move can cost you everything in your pack.</p>
       <div class="actions">
-        <!-- Mağaza linkleri hazır olunca doldur -->
-        <a class="btn" href="#">App Store</a>
-        <a class="btn btn-ghost" href="#">Google Play</a>
+        <!-- Mağaza linkleri hazır olunca span'leri <a class="btn" href="..."> ile değiştir -->
+        <span class="btn btn-soon" aria-disabled="true">App Store · Coming soon</span>
+        <span class="btn btn-ghost btn-soon" aria-disabled="true">Google Play · Coming soon</span>
+      </div>
+    </section>
+
+    <section class="game-about">
+      <img class="game-art" src="/assets/games/max/hero.webp" alt="Max, the game's main character" width="540" height="810" loading="lazy">
+      <div>
+        <h2>About the game</h2>
+        <ul class="feature-list">
+          <li><strong>Build your camp.</strong> Grow your settlement with shelters, storage, workshops and production buildings.</li>
+          <li><strong>Manage your people.</strong> Assign workers to gather scrap, wood, meat and more.</li>
+          <li><strong>Craft and trade.</strong> Make weapons and armor from blueprints dropped by enemies, and haggle with the trader.</li>
+          <li><strong>Explore carefully.</strong> Read the tracks on the map, avoid ambushes, and search abandoned vehicles and crates.</li>
+          <li><strong>Don't forget to head home.</strong> If you can't make it back to base before your water and energy run out, you lose everything you've gathered.</li>
+        </ul>
       </div>
     </section>
 
     <section>
-      <h2>Yasal</h2>
+      <h2>Legal</h2>
       <ul class="links">
-        <li><a href="/games/max/terms/">Kullanım Koşulları</a></li>
-        <li><a href="/games/max/privacy/">Gizlilik Politikası</a></li>
+        <li><a href="/games/max/terms/">Terms of Use</a></li>
+        <li><a href="/games/max/privacy/">Privacy Policy</a></li>
+        <li><a href="/games/max/terms/tr/" lang="tr">Kullanım Koşulları</a></li>
+        <li><a href="/games/max/privacy/tr/" lang="tr">Gizlilik Politikası</a></li>
       </ul>
     </section>
   </main>
